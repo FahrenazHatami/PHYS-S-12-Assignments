@@ -1,9 +1,16 @@
+@import 'path/open-color';
 
----
----
+.body {
+  background-color: $oc-gray-0;
+  color: $oc-gray-7;
+}
 
-@import "{{ site.theme }}";
+a {
+  color: $oc-teal-7;
 
-h1{
-  color: red;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $oc-indigo-7;
+  }
 }
