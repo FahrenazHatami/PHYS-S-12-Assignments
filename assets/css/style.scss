@@ -3,10 +3,15 @@
 ---
 
 @import "{{ site.theme }}";
+<style>
 
-h1{
-  color: white;
-  background-color: #5B43AB;
-}
+	h1{
+  		color: white;
+  		background-color: #5B43AB;
+	}
+	body{ 
+	background-color: #FF00FF;
+
+	}
  
   
