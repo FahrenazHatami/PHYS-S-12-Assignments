@@ -3,14 +3,14 @@
 ---
 
 @import "{{ site.theme }}";
-	body{ 
-		h1{
-  			color: white;
-  			background-color: #5B43AB;
-		}
-
-		background-color: #FF00FF;
-	}
+	
+h1{
+  color: white;
+  background-color: #5B43AB;
+}
+body{ 
+	background-color: #FF00FF;
+}
 
 
  
